@@ -36,3 +36,38 @@ ul,
 ol {
   list-style: none;
 }
+
+.page {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  align-items: end;
+  gap: 30px;
+}
+
+.search-form {
+  display: flex;
+}
+
+.content__list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  height: 300px;
+  overflow: auto;
+} 
+
+.content__details {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* .more-button {
+  background-color: transparent;
+  color: #fff;
+}  */
