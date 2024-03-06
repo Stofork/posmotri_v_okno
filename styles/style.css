@@ -175,6 +175,10 @@ ol {
   cursor: pointer;
 }
 
+.button:focus {
+  outline: none;
+}
+
 .button:focus-visible {
   outline-offset: 1px;
   outline: 1px solid #FFFFFF;
@@ -228,6 +232,7 @@ ol {
 }
 
 .content__card-link {
+  margin: 2px;
   display: block;
   text-decoration: none;
 }
@@ -236,16 +241,15 @@ ol {
   outline: none;
 }
 
-.content__card-link:active .content__video-card {
+.content__card-link:active {
   background-color: #545050; 
 }
 
-.content__card-link_current .content__video-card {
+.content__card-link_current {
   background-color: #545050;
 }
 
 .content__card-link:focus-visible {
-  margin: 2px;
   outline: 1px solid #FFFFFF;
 }
 
@@ -257,9 +261,8 @@ ol {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  margin-left: 3px;
-  margin-top: 2px;
-  padding: 2px;
+  margin-right: auto;
+  padding: 2px 0px 2px 2px;
   max-width: 394px;
 }
 
@@ -295,5 +298,6 @@ ol {
 }
 
 .more-button {
-  width: 100%;
+  width: 98%;
+  margin: 2px;
 }
